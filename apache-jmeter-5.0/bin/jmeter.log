@@ -1,0 +1,161 @@
+2022-04-12 19:12:58,689 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: Version 5.0 r1840935
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: java.version=11.0.2
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: os.name=Windows 10
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: os.arch=amd64
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: os.version=10.0
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: file.encoding=GBK
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-04-12 19:12:58,735 INFO o.a.j.JMeter: Available Processors =8
+2022-04-12 19:12:58,751 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-04-12 19:12:58,751 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2022-04-12 19:12:58,751 INFO o.a.j.JMeter: JMeterHome=E:\jemter\apache-jmeter-5.0
+2022-04-12 19:12:58,751 INFO o.a.j.JMeter: user.dir  =E:\jemter\apache-jmeter-5.0\bin
+2022-04-12 19:12:58,751 INFO o.a.j.JMeter: PWD       =E:\jemter\apache-jmeter-5.0\bin
+2022-04-12 19:12:58,751 INFO o.a.j.JMeter: IP: 100.64.12.161 Name: LAPTOP-FTGBKVB8 FullName: LAPTOP-FTGBKVB8
+2022-04-12 19:12:59,017 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2022-04-12 19:12:59,017 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2022-04-12 19:12:59,017 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2022-04-12 19:12:59,095 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-04-12 19:12:59,876 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-04-12 19:12:59,876 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-04-12 19:13:01,844 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_10-62ec3cb2069ce3ee75b60b8f5c86f67c-gui
+2022-04-12 19:13:02,922 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-12 19:13:02,938 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-12 19:13:02,938 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-12 19:13:02,938 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-04-12 19:13:02,938 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-04-12 19:13:02,938 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-04-12 19:13:03,578 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2022-04-12 19:13:03,578 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file E:\jemter\apache-jmeter-5.0\bin\proxyserver.jks
+2022-04-12 19:13:03,719 INFO o.a.j.s.FileServer: Default base='E:\jemter\apache-jmeter-5.0\bin'
+2022-04-12 19:13:05,156 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-04-12 19:13:05,156 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2022-04-12 19:13:05,156 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-04-12 19:13:05,156 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-04-12 19:13:05,187 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
+java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:315) ~[?:?]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) [ApacheJMeter_components.jar:5.0 r1840935]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:584) [?:?]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) [ApacheJMeter_core.jar:5.0 r1840935]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:471) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 32 more
+2022-04-12 19:13:05,265 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, jpgc-casutg=2.10, jpgc-perfmon=2.1, jpgc-plugins-manager=1.7, jmeter-core=5.0, jmeter-ftp=5.0, jmeter-http=5.0, jmeter-jdbc=5.0, jmeter-jms=5.0, jmeter-junit=5.0, jmeter-java=5.0, jmeter-ldap=5.0, jmeter-mail=5.0, jmeter-mongodb=5.0, jmeter-native=5.0, jmeter-tcp=5.0, jmeter-components=5.0]
+2022-04-12 19:13:10,405 INFO o.a.j.g.a.Load: Loading file: E:\jemter\littleMail\轻商城项目性能测试脚本.jmx
+2022-04-12 19:13:10,405 INFO o.a.j.s.FileServer: Set new base='E:\jemter\littleMail'
+2022-04-12 19:13:10,530 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-04-12 19:13:10,530 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-04-12 19:13:10,530 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-04-12 19:13:10,530 INFO o.a.j.s.SaveService: Loading file: E:\jemter\littleMail\轻商城项目性能测试脚本.jmx
+2022-04-12 19:13:10,875 WARN o.a.j.v.ViewResultsFullVisualizer: Error loading result renderer: org.apache.jmeter.visualizers.RenderInBrowser
+java.lang.NoClassDefFoundError: javafx/embed/swing/JFXPanel
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:315) ~[?:?]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createComboRender(ViewResultsFullVisualizer.java:462) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.createLeftPanel(ViewResultsFullVisualizer.java:430) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.init(ViewResultsFullVisualizer.java:342) [ApacheJMeter_components.jar:5.0 r1840935]
+	at org.apache.jmeter.visualizers.ViewResultsFullVisualizer.<init>(ViewResultsFullVisualizer.java:147) [ApacheJMeter_components.jar:5.0 r1840935]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:584) [?:?]
+	at org.apache.jmeter.gui.GuiPackage.getGuiFromCache(GuiPackage.java:405) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:251) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.GuiPackage.getGui(GuiPackage.java:222) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addComponent(JMeterTreeModel.java:157) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:133) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.tree.JMeterTreeModel.addSubTree(JMeterTreeModel.java:125) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.GuiPackage.addSubTree(GuiPackage.java:522) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.Load.insertLoadedTree(Load.java:200) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:131) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:102) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:67) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:45) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) [ApacheJMeter_core.jar:5.0 r1840935]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) [ApacheJMeter_core.jar:5.0 r1840935]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+	at java.security.AccessController.doPrivileged(Native Method) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.lang.ClassNotFoundException: javafx.embed.swing.JFXPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:471) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 38 more
+2022-04-12 19:13:11,078 INFO o.a.j.s.FileServer: Set new base='E:\jemter\littleMail'
+2022-04-12 19:13:46,074 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,074 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,074 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,074 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
+2022-04-12 19:13:46,090 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,105 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,105 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [label]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [#_samples]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [median]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [90%_line]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [95%_line]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [99%_line]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [min]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [error_%]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [throughput]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [received_kb/sec]
+2022-04-12 19:13:46,137 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sent_kb/sec]
